@@ -1,6 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 
+//images
+
+import profileImage from "../public/p2.png"
+
 //icons
 
 import { BsFillMoonStarsFill } from "react-icons/bs";
@@ -40,17 +44,17 @@ export default function Home() {
           </nav>
 
           {/* hero */}
-          <div>
-            <h1>Yenuli Obapitiya</h1>
-            <h3>Website Developer with a Passion for Building Modern, Responsive Websites</h3>
-            <p>I'm a dedicated student with a passion for website development.
+          <div className="text-center p-10">
+            <h1 className="text-5xl font-bold text-yellow-400">Yenuli Obapitiya</h1>
+            <h3 className="text-2xl py-4">Website Developer with a Passion for Building Modern, Responsive Websites</h3>
+            <p className="text-sm py-4 text-gray-400 leading-6">I'm a dedicated student with a passion for website development.
                While continuing to learn and grow,
                 I have developed a strong foundation in creating responsive,
                  user-friendly websites. I'm excited to take on new challenges 
                  and expand my skills through real-world projects.</p>
           </div>
           {/*social*/}
-          <div>
+          <div className="text-5xl flex justify-center gap-16 text-gray-600">
             <a href="https://github.com/yenuliobapitiya">
               <AiOutlineGithub/>
             </a>
@@ -60,8 +64,11 @@ export default function Home() {
             <a href=""></a>
           </div>
           {/* profile */}
-          <div>
-            <Image src={} alt="" />
+          <div className="m-auto relative bg-gradient-to-b from-yellow-200 w-80 h-80 p-5 mt-20 rounded-full">
+            <Image src={profileImage} 
+                   alt="profile image"  
+                   layout="fill"  
+                   objectFit="cover"  />
           </div>
         </section>
         </main>
