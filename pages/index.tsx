@@ -40,8 +40,14 @@ export default function Home() {
           {/* hero */}
           <div>
             <h1>Yenuli Obapitiya</h1>
-            <h2>Mobile Apps and website developer</h2>
+            <h3>Website Developer with a Passion for Building Modern, Responsive Websites</h3>
+            <p>I'm a dedicated student with a passion for website development.
+               While continuing to learn and grow,
+                I have developed a strong foundation in creating responsive,
+                 user-friendly websites. I'm excited to take on new challenges 
+                 and expand my skills through real-world projects.</p>
           </div>
+          {/*social*/}
         </section>
         </main>
       </div>
