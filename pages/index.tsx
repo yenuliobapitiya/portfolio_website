@@ -4,6 +4,8 @@ import Image from "next/image";
 //icons
 
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import { AiOutlineGithub } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
 
 export default function Home() {
   return (
@@ -48,6 +50,19 @@ export default function Home() {
                  and expand my skills through real-world projects.</p>
           </div>
           {/*social*/}
+          <div>
+            <a href="https://github.com/yenuliobapitiya">
+              <AiOutlineGithub/>
+            </a>
+            <a href="https://www.linkedin.com/in/yenuli-obapitiya-93b6b92b9/">
+              <AiFillLinkedin/>
+            </a>
+            <a href=""></a>
+          </div>
+          {/* profile */}
+          <div>
+            <Image src={} alt="" />
+          </div>
         </section>
         </main>
       </div>
