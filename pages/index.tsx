@@ -4,6 +4,7 @@ import Image from "next/image";
 //images
 
 import profileImage from "../public/p2.png"
+import graphicDesign from "../public/design.png"
 
 //icons
 
@@ -72,6 +73,28 @@ export default function Home() {
                    alt="profile image"  
                    layout="fill"  
                    objectFit="cover"  />
+          </div>
+        </section>
+        {/* services */}
+        <section>
+          <div>
+            <h2>Services I Offer</h2>
+            <p className="text-sm py-4 text-gray-400 leading-6">As a website developer,
+               I offer a range of services designed to bring your online presence to life. 
+               I specialize in creating modern, responsive websites that provide a seamless
+               user experience across all devices. My skills include designing clean,
+               visually appealing layouts, ensuring optimal performance, and integrating
+               features tailored to your specific needs. Whether you’re looking for a personal blog,
+               a business website, or a portfolio to showcase your work, I can help you build a 
+               site that stands out and meets your goals.</p>
+          </div>
+          {/* services cards */}
+          <div>
+            {/* card */}
+            <div>
+              <Image src={graphicDesign} alt="design image" width={100} height={100}/>
+              <h2>Graphic Designing</h2>
+            </div>
           </div>
         </section>
         </main>
