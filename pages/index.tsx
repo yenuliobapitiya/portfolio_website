@@ -10,6 +10,7 @@ import profileImage from "../public/p2.png"
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiOutlineGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 export default function Home() {
   return (
@@ -61,7 +62,9 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/yenuli-obapitiya-93b6b92b9/">
               <AiFillLinkedin/>
             </a>
-            <a href=""></a>
+            <a href="https://x.com/YObapitiya">
+              <FaSquareXTwitter/>
+            </a>
           </div>
           {/* profile */}
           <div className="m-auto relative bg-gradient-to-b from-yellow-200 w-80 h-80 p-5 mt-20 rounded-full">
