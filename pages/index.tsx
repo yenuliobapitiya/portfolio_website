@@ -78,8 +78,8 @@ export default function Home() {
         {/* services */}
         <section>
           <div>
-            <h2 className="">Services I Offer</h2>
-            <p className="text-sm py-4 text-gray-400 leading-6">As a website developer,
+            <h2 className="text-5xl py-10 font-bold opacity-60">Services I Offer</h2>
+            <p className="text-sm py-2 text-gray-400 leading-6">As a website developer,
                I offer a range of services designed to bring your online presence to life. 
                I specialize in creating modern, responsive websites that provide a seamless
                user experience across all devices. My skills include designing clean,
@@ -91,12 +91,12 @@ export default function Home() {
           {/* services cards */}
           <div>
             {/* card */}
-            <div className="bg-yellow-300 text-center shadow-sm p-5 rounded-xl my-10">
-              <Image src={graphicDesign} alt="design image" width={100} height={100}/>
-              <h2>Graphic Designing</h2>
-              <p>I provide graphic design services that bring creativity and professionalism to your projects.
+            <div className="bg-yellow-300 text-center shadow-sm p-5 rounded-xl my-10 ">
+              <Image src={graphicDesign} alt="design image" width={100} height={100} className="inline"/>
+              <h2 className="text-2xl font-bold ">Graphic Designing</h2>
+              <p className="text-sm py-2 text-gray-800 leading-6">I provide graphic design services that bring creativity and professionalism to your projects.
                  Whether you need eye-catching logos, stunning social media graphics, or polished presentation designs,
-                 I ensure each piece is crafted to enhance your brand and deliver your message effectively</p>
+                 I ensure each piece is crafted to enhance your brand and deliver your message effectively.</p>
             </div>
           </div>
         </section>
