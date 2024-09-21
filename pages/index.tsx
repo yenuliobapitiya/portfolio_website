@@ -98,6 +98,22 @@ export default function Home() {
                  Whether you need eye-catching logos, stunning social media graphics, or polished presentation designs,
                  I ensure each piece is crafted to enhance your brand and deliver your message effectively.</p>
             </div>
+            {/* card */}
+            <div className="bg-yellow-300 text-center shadow-sm p-5 rounded-xl my-10 ">
+              <Image src={graphicDesign} alt="design image" width={100} height={100} className="inline"/>
+              <h2 className="text-2xl font-bold ">Graphic Designing</h2>
+              <p className="text-sm py-2 text-gray-800 leading-6">I provide graphic design services that bring creativity and professionalism to your projects.
+                 Whether you need eye-catching logos, stunning social media graphics, or polished presentation designs,
+                 I ensure each piece is crafted to enhance your brand and deliver your message effectively.</p>
+            </div>
+            {/* card */}
+            <div className="bg-yellow-300 text-center shadow-sm p-5 rounded-xl my-10 ">
+              <Image src={graphicDesign} alt="design image" width={100} height={100} className="inline"/>
+              <h2 className="text-2xl font-bold ">Graphic Designing</h2>
+              <p className="text-sm py-2 text-gray-800 leading-6">I provide graphic design services that bring creativity and professionalism to your projects.
+                 Whether you need eye-catching logos, stunning social media graphics, or polished presentation designs,
+                 I ensure each piece is crafted to enhance your brand and deliver your message effectively.</p>
+            </div>
           </div>
         </section>
         </main>
