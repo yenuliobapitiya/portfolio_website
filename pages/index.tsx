@@ -91,9 +91,10 @@ export default function Home() {
           {/* services cards */}
           <div>
             {/* card */}
-            <div>
+            <div className="bg-yellow-300 text-center shadow-sm p-5 rounded-xl my-10">
               <Image src={graphicDesign} alt="design image" width={100} height={100}/>
               <h2>Graphic Designing</h2>
+              <p></p>
             </div>
           </div>
         </section>
