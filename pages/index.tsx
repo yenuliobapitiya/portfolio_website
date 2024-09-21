@@ -32,7 +32,7 @@ export default function Home() {
         <section>
           {/* nav */}
           <nav className="py-10 flex justify-between">
-            <h1 className="text-sm">developed by adomic arts</h1>
+            <h1 className="text-sm">developed by Yenuli Obapitiya</h1>
             <ul className="flex items-center">
               {/* icon */}
               <li>
@@ -78,7 +78,7 @@ export default function Home() {
         {/* services */}
         <section>
           <div>
-            <h2>Services I Offer</h2>
+            <h2 className="">Services I Offer</h2>
             <p className="text-sm py-4 text-gray-400 leading-6">As a website developer,
                I offer a range of services designed to bring your online presence to life. 
                I specialize in creating modern, responsive websites that provide a seamless
@@ -94,7 +94,9 @@ export default function Home() {
             <div className="bg-yellow-300 text-center shadow-sm p-5 rounded-xl my-10">
               <Image src={graphicDesign} alt="design image" width={100} height={100}/>
               <h2>Graphic Designing</h2>
-              <p></p>
+              <p>I provide graphic design services that bring creativity and professionalism to your projects.
+                 Whether you need eye-catching logos, stunning social media graphics, or polished presentation designs,
+                 I ensure each piece is crafted to enhance your brand and deliver your message effectively</p>
             </div>
           </div>
         </section>
