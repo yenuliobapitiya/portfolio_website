@@ -3,8 +3,12 @@ import Image from "next/image";
 
 //images
 
-import profileImage from "../public/p2.png"
-import graphicDesign from "../public/design.png"
+import profileImage from "../public/p2.png";
+import graphicDesign from "../public/design.png";
+import code from "../public/code.png";
+import image1 from "../public/web1.png"
+import image2 from "../public/web2.png"
+import image3 from "../public/web3.png"
 
 //icons
 
@@ -116,6 +120,28 @@ export default function Home() {
             </div>
           </div>
         </section>
+        {/* section */}
+        <section>
+          <div>
+          <h2 className="text-5xl py-10 font-bold opacity-60">Portfolio</h2>
+          <p className="text-sm py-2 text-gray-400 leading-6">this is my portfolio</p>
+          </div>
+          {/* images */}
+          <div className="flex flex-col gap-10 p-10">
+            <Image src={image1} alt="images 1" layout="responsive" className="rounded-lg object-cover"/>
+            <Image src={image1} alt="images 1" layout="responsive" className="rounded-lg object-cover"/>
+            <Image src={image1} alt="images 1" layout="responsive" className="rounded-lg object-cover"/>
+            <Image src={image1} alt="images 1" layout="responsive" className="rounded-lg object-cover"/>
+            <Image src={image1} alt="images 1" layout="responsive" className="rounded-lg object-cover"/>
+            <Image src={image1} alt="images 1" layout="responsive" className="rounded-lg object-cover"/>
+              
+          </div>
+        </section>
+        {/* footer */}
+        <div>
+          <h3>contact me for more details</h3>
+          <p>hilton</p>
+        </div>
         </main>
       </div>
   );
