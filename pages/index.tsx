@@ -35,12 +35,12 @@ export default function Home() {
         </style>
       </Head>
 
-        <main className="font-poppins bg-yellow-50 min-h-screen px-10">
+        <main className="font-poppins bg-yellow-50 min-h-screen px-10 md:px-20 lg:px-40">
         {/* nav and hero */}
         <section>
           {/* nav */}
           <nav className="py-10 flex justify-between">
-            <h1 className="text-sm">developed by Yenuli Obapitiya</h1>
+            <h1 className="text-sm md:text-xl">developed by yenuli obapitiya</h1>
             <ul className="flex items-center">
               {/* icon */}
               <li>
@@ -55,9 +55,9 @@ export default function Home() {
 
           {/* hero */}
           <div className="text-center p-10">
-            <h1 className="text-5xl font-bold text-yellow-400">Yenuli Obapitiya</h1>
-            <h3 className="text-2xl py-4">Website Developer with a Passion for Building Modern, Responsive Websites</h3>
-            <p className="text-sm py-4 text-gray-400 leading-6">I'm a dedicated student with a passion for website development.
+            <h1 className="text-5xl font-bold text-yellow-400 md:text-6xl lg:text-7xl lg:mb-4">Yenuli Obapitiya</h1>
+            <h3 className="text-2xl py-4 md:text-3xl">Website Developer with a Passion for Building Modern, Responsive Websites</h3>
+            <p className="text-sm py-4 text-gray-400 leading-6 max-w-xl mx-auto md:text-md">I'm a dedicated student with a passion for website development.
                While continuing to learn and grow,
                 I have developed a strong foundation in creating responsive,
                  user-friendly websites. I'm excited to take on new challenges 
@@ -97,7 +97,7 @@ export default function Home() {
                site that stands out and meets your goals.</p>
           </div>
           {/* services cards */}
-          <div>
+          <div className="md:flex lg:flex gap-10 mx-auto">
             {/* card */}
             <div className="bg-yellow-300 text-center shadow-sm p-5 rounded-xl my-10 ">
               <Image src={graphicDesign} alt="design image" width={100} height={100} className="inline"/>
@@ -131,13 +131,25 @@ export default function Home() {
           <p className="text-sm py-2 text-gray-400 leading-6">this is my portfolio</p>
           </div>
           {/* images */}
-          <div className="flex flex-col gap-10 p-10">
+          <div className="flex flex-col gap-10 p-10 lg:flex-row lg:flex-wrap">
+          <div>
             <Image src={image1} alt="images 1" layout="responsive" className="rounded-lg object-cover"/>
+            </div>
+            <div>
             <Image src={image2} alt="images 1" layout="responsive" className="rounded-lg object-cover"/>
+            </div>
+            <div>
             <Image src={image3} alt="images 1" layout="responsive" className="rounded-lg object-cover"/>
+            </div>
+            <div>
             <Image src={image4} alt="images 1" layout="responsive" className="rounded-lg object-cover"/>
+            </div>
+            <div>
             <Image src={image5} alt="images 1" layout="responsive" className="rounded-lg object-cover"/>
+            </div>
+            <div>
             <Image src={image6} alt="images 1" layout="responsive" className="rounded-lg object-cover"/>
+            </div>
               
           </div>
         </section>
