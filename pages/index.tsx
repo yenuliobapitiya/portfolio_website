@@ -142,6 +142,19 @@ export default function Home() {
           <h3>contact me for more details</h3>
           <p>hilton</p>
         </div>
+        <div>
+        <div className="text-5xl flex justify-center gap-16 text-gray-600">
+            <a href="https://github.com/yenuliobapitiya">
+              <AiOutlineGithub/>
+            </a>
+            <a href="https://www.linkedin.com/in/yenuli-obapitiya-93b6b92b9/">
+              <AiFillLinkedin/>
+            </a>
+            <a href="https://x.com/YObapitiya">
+              <FaSquareXTwitter/>
+            </a>
+          </div>
+        </div>
         </main>
       </div>
   );
