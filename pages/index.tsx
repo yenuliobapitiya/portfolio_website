@@ -9,6 +9,10 @@ import code from "../public/code.png";
 import image1 from "../public/web1.png"
 import image2 from "../public/web2.png"
 import image3 from "../public/web3.png"
+import image4 from "../public/web3.png"
+import image5 from "../public/web3.png"
+import image6 from "../public/web3.png"
+
 
 //icons
 
@@ -129,21 +133,21 @@ export default function Home() {
           {/* images */}
           <div className="flex flex-col gap-10 p-10">
             <Image src={image1} alt="images 1" layout="responsive" className="rounded-lg object-cover"/>
-            <Image src={image1} alt="images 1" layout="responsive" className="rounded-lg object-cover"/>
-            <Image src={image1} alt="images 1" layout="responsive" className="rounded-lg object-cover"/>
-            <Image src={image1} alt="images 1" layout="responsive" className="rounded-lg object-cover"/>
-            <Image src={image1} alt="images 1" layout="responsive" className="rounded-lg object-cover"/>
-            <Image src={image1} alt="images 1" layout="responsive" className="rounded-lg object-cover"/>
+            <Image src={image2} alt="images 1" layout="responsive" className="rounded-lg object-cover"/>
+            <Image src={image3} alt="images 1" layout="responsive" className="rounded-lg object-cover"/>
+            <Image src={image4} alt="images 1" layout="responsive" className="rounded-lg object-cover"/>
+            <Image src={image5} alt="images 1" layout="responsive" className="rounded-lg object-cover"/>
+            <Image src={image6} alt="images 1" layout="responsive" className="rounded-lg object-cover"/>
               
           </div>
         </section>
         {/* footer */}
-        <div>
-          <h3>contact me for more details</h3>
-          <p>hilton</p>
-        </div>
-        <div>
-        <div className="text-5xl flex justify-center gap-16 text-gray-600">
+        <footer className="boder-t-2 border-black text-sm opacity-70 flex flex-col gap-5 items-center justify-center py-10">
+          <div>
+            <h3 className="text-base mb-2">Contact me for more details</h3>
+            <a href="mailto:yenuliobapitiya@gmail.com" className="email-link ">yenuliobapitiya@gmail.com</a>
+          </div>
+          <div className="text-5xl flex justify-center gap-16 text-gray-600">
             <a href="https://github.com/yenuliobapitiya">
               <AiOutlineGithub/>
             </a>
@@ -154,7 +158,7 @@ export default function Home() {
               <FaSquareXTwitter/>
             </a>
           </div>
-        </div>
+        </footer>
         </main>
       </div>
   );
