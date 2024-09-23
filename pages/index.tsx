@@ -9,9 +9,9 @@ import code from "../public/code.png";
 import image1 from "../public/web1.png"
 import image2 from "../public/web2.png"
 import image3 from "../public/web3.png"
-import image4 from "../public/web3.png"
-import image5 from "../public/web3.png"
-import image6 from "../public/web3.png"
+
+//framer
+import {motion} from "framer-motion";
 
 
 //icons
@@ -83,12 +83,17 @@ export default function Home() {
             </a>
           </div>
           {/* profile */}
+          <motion.div
+          initial={{opacity: 0 , scale: 0.5}}
+          animate={{opacity: 1 , scale: 1}}
+          transition={{duration: 0.5}}
+          >
           <div className="m-auto relative bg-gradient-to-b from-yellow-200 w-80 h-80 p-5 mt-20 rounded-full">
             <Image src={profileImage} 
                    alt="profile image"  
                    layout="fill"  
                    objectFit="cover"  />
-          </div>
+          </div></motion.div>
         </section>
         {/* services */}
         <section>
