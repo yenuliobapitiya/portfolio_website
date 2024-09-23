@@ -83,11 +83,7 @@ export default function Home() {
             </a>
           </div>
           {/* profile */}
-          <motion.div
-          initial={{opacity: 0 , scale: 0.5}}
-          animate={{opacity: 1 , scale: 1}}
-          transition={{duration: 0.5}}
-          >
+          <motion.div initial={{opacity: 0 , scale: 0.5}} animate={{opacity: 1 , scale: 1}} transition={{duration: 0.5}}>
           <div className="m-auto relative bg-gradient-to-b from-yellow-200 w-80 h-80 p-5 mt-20 rounded-full">
             <Image src={profileImage} 
                    alt="profile image"  
@@ -111,29 +107,32 @@ export default function Home() {
           {/* services cards */}
           <div className="md:flex lg:flex gap-10 mx-auto">
             {/* card */}
+            <motion.div whileHover={{scale:1.1}} whileTap={{scale: 0.9}}>
             <div className="bg-yellow-300 text-center shadow-sm p-5 rounded-xl my-10 ">
               <Image src={graphicDesign} alt="design image" width={100} height={100} className="inline"/>
               <h2 className="text-2xl font-bold ">Graphic Designing</h2>
               <p className="text-sm py-2 text-gray-800 leading-6">I provide graphic design services that bring creativity and professionalism to your projects.
                  Whether you need eye-catching logos, stunning social media graphics, or polished presentation designs,
                  I ensure each piece is crafted to enhance your brand and deliver your message effectively.</p>
-            </div>
+            </div></motion.div>
             {/* card */}
+            <motion.div whileHover={{scale:1.1}} whileTap={{scale: 0.9}}>
             <div className="bg-yellow-300 text-center shadow-sm p-5 rounded-xl my-10 ">
               <Image src={graphicDesign} alt="design image" width={100} height={100} className="inline"/>
               <h2 className="text-2xl font-bold ">Websites Development</h2>
               <p className="text-sm py-2 text-gray-800 leading-6">I specialize in building responsive, user-friendly websites 
                 that cater to your specific needs. Whether you need a personal blog, a business website, or a portfolio,
                  I ensure your site is optimized for all devices and offers a seamless user experience.</p>
-            </div>
+            </div></motion.div>
             {/* card */}
+            <motion.div whileHover={{scale:1.1}} whileTap={{scale: 0.9}}>
             <div className="bg-yellow-300 text-center shadow-sm p-5 rounded-xl my-10 ">
               <Image src={graphicDesign} alt="design image" width={100} height={100} className="inline"/>
               <h2 className="text-2xl font-bold ">Presentation Design</h2>
               <p className="text-sm py-2 text-gray-800 leading-6">I create professional, visually appealing presentations
                  using PowerPoint and Canva. My designs are crafted to effectively communicate your message, whether it's for 
                  business meetings, educational purposes, or personal projects.</p>
-            </div>
+            </div></motion.div>
           </div>
         </section>
         {/* my work */}
