@@ -46,13 +46,13 @@ export default function Home() {
         <section>
           {/* nav */}
           <nav className="py-10 flex justify-between">
-            <h1 className="text-sm md:text-xl">developed by yenuli obapitiya</h1>
+            <h1 className="text-sm md:text-xl dark:text-white">developed by yenuli obapitiya</h1>
             <ul className="flex items-center">
               {/* icon */}
               <li>
                 <BsFillMoonStarsFill
                 onClick={()=> setdarkMode(!darkMode)}
-                className="cursor-pointer text-xl mx-5"/>
+                className="cursor-pointer text-xl mx-5 dark:text-white"/>
               </li>
               <li>
                 <a href="https://drive.google.com/file/d/1WGH980EuBmviKfsUmBsh1mN3yDebwNeJ/view?usp=sharing" download={"resume"} className="bg-yellow-400 text-black px-4 py-2 border-none rounded-md">Resume</a>
@@ -63,7 +63,7 @@ export default function Home() {
           {/* hero */}
           <div className="text-center p-10">
             <h1 className="text-5xl font-bold text-yellow-400 md:text-6xl lg:text-7xl lg:mb-4">Yenuli Obapitiya</h1>
-            <h3 className="text-2xl py-4 md:text-3xl">Website Developer with a Passion for Building Modern, Responsive Websites</h3>
+            <h3 className="text-2xl py-4 md:text-3xl dark:text-white">Website Developer with a Passion for Building Modern, Responsive Websites</h3>
             <p className="text-sm py-4 text-gray-400 leading-6 max-w-xl mx-auto md:text-md">I'm a dedicated student with a passion for website development.
                While continuing to learn and grow,
                 I have developed a strong foundation in creating responsive,
@@ -93,7 +93,7 @@ export default function Home() {
         {/* services */}
         <section>
           <div>
-            <h2 className="text-5xl py-10 font-bold opacity-60">Services I Offer</h2>
+            <h2 className="text-5xl py-10 font-bold opacity-60 dark:text-white">Services I Offer</h2>
             <p className="text-sm py-2 text-gray-400 leading-6">As a website developer,
                I offer a range of services designed to bring your online presence to life. 
                I specialize in creating modern, responsive websites that provide a seamless
@@ -134,7 +134,7 @@ export default function Home() {
         {/* my work */}
         <section>
           <div>
-          <h2 className="text-5xl py-10 font-bold opacity-60">Portfolio</h2>
+          <h2 className="text-5xl py-10 font-bold opacity-60 dark:text-white">Portfolio</h2>
           <p className="text-sm py-2 text-gray-400 leading-6">this is my portfolio</p>
           </div>
           {/* images */}
@@ -161,10 +161,10 @@ export default function Home() {
           </div>
         </section>
         {/* footer */}
-        <footer className="border-t-2 border-black text-sm opacity-70 flex flex-col gap-5 items-center justify-center py-10 lg:flex-row lg:items-center">
+        <footer className="border-t-2 border-black text-sm opacity-70 flex flex-col gap-5 items-center justify-center py-10 lg:flex-row lg:items-center dark:border-white">
           <div>
-            <h3 className="text-base mb-2">Contact me for more details</h3>
-            <a href="mailto:yenuliobapitiya@gmail.com" className="email-link ">yenuliobapitiya@gmail.com</a>
+            <h3 className="text-base mb-2 dark:text-white">Contact me for more details</h3>
+            <a href="mailto:yenuliobapitiya@gmail.com" className="email-link dark:text-white">yenuliobapitiya@gmail.com</a>
           </div>
           <div className="text-5xl flex justify-center gap-16 text-gray-600">
             <a href="https://github.com/yenuliobapitiya">
